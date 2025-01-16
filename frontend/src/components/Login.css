@@ -1,0 +1,67 @@
+/* src/components/Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7f6; /* Fondo claro para el formulario */
+  }
+  
+  .login-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #334F5B; /* Título con el color oscuro */
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #334F5B; /* Color para las etiquetas */
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #4D818F; /* Color al enfocarse en el input */
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4D818F; /* Color de fondo del botón */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #334F5B; /* Cambio de color al pasar el mouse */
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+  }
+  
